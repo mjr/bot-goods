@@ -8,6 +8,6 @@ Um bot que tem a função gerenciar os bens de uma determinada empresa e mantê-
 2. Execute o `Main`
 
 ```console
-javac *.java
-java Main
+javac -cp ".:./jars/telegrambots-4.4.0.2-jar-with-dependencies.jar" *.java
+java -cp ".:./jars/telegrambots-4.4.0.2-jar-with-dependencies.jar" Main
 ```
